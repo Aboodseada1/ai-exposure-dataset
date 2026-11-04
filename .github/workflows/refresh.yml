@@ -1,0 +1,30 @@
+name: refresh-from-aikillswhat
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: fetch latest CSVs
+        run: |
+          curl -fsSL https://aikillswhat.com/data/jobs.csv -o data/aikillswhat-occupations.csv
+          curl -fsSL https://aikillswhat.com/data/models.csv -o data/aikillswhat-models.csv
+      - name: commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add data
+            git commit -m "hourly refresh from aikillswhat.com $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "no changes"
+          fi
