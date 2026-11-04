@@ -1,0 +1,69 @@
+# aikillswhat.com - AI model registry export
+# Registry of AI models tracked by the evidence pipeline (providers, release dates, provenance).
+# Scores/evidence per model: https://aikillswhat.com/models/<slug> | API: https://aikillswhat.com/api-docs
+# Generated 2026-11-04T03:00:51.193Z - 64 rows
+slug,name,provider,provider_slug,release_date,modality,provenance,detected_at_utc,detail_url
+lfm2-5-2-6b,LFM2.5-2.6B,Liquid AI,liquid-ai,2026-11-04 01:00:00+01,text,auto:llm-extraction,2026-11-04 02:11:46.38486+01,https://aikillswhat.com/models/lfm2-5-2-6b
+kimi-k3,Kimi K3,Moonshot AI,alibaba,2026-11-04 01:00:00+01,text,auto:llm-extraction,2026-11-04 02:10:14.959812+01,https://aikillswhat.com/models/kimi-k3
+mistral-large-4,Mistral Large 4,Mistral,mistral,2026-10-30 01:00:00+01,multimodal,auto:llm-extraction,2026-11-04 02:08:33.578287+01,https://aikillswhat.com/models/mistral-large-4
+gemini-4-carbon,Gemini 4 Carbon,Google DeepMind,google,2026-10-28 01:00:00+01,"text, image, audio, video, code, agents",curated:provider-announcement,2026-11-02 22:56:11.424433+01,https://aikillswhat.com/models/gemini-4-carbon
+genie-4,Genie 4,Google DeepMind,google,2026-10-27 01:00:00+01,"video, image, robotics",curated:provider-announcement,2026-11-02 22:56:11.863292+01,https://aikillswhat.com/models/genie-4
+gpt-live,GPT-Live,OpenAI,openai,2026-10-27 01:00:00+01,"voice, audio, text, agents",curated:provider-announcement,2026-11-02 22:56:11.375894+01,https://aikillswhat.com/models/gpt-live
+gpt-6-astra,GPT-6 Astra,OpenAI,openai,2026-10-26 01:00:00+01,"code, text, analysis, agents",curated:provider-announcement,2026-11-02 22:56:11.323688+01,https://aikillswhat.com/models/gpt-6-astra
+gpt-6-1-terra,GPT-6.1 Terra,OpenAI,openai,2026-10-26 01:00:00+01,"text, image, code, agents",curated:provider-announcement,2026-11-02 22:56:11.290024+01,https://aikillswhat.com/models/gpt-6-1-terra
+the-anthropic-cyber-mission,the Anthropic Cyber Mission,Anthropic,anthropic,2026-10-08 11:04:16.632+02,,auto:provider-announcement,2026-10-08 21:16:30.244408+02,https://aikillswhat.com/models/the-anthropic-cyber-mission
+gemini-4-argon,Gemini 4 Argon,Google DeepMind,google,2026-09-30 22:21:14+02,"text, code, image, audio, video, robotics, agents",curated:provider-announcement,2026-11-02 23:06:18.999165+01,https://aikillswhat.com/models/gemini-4-argon
+synthid-bio,SynthID Bio,Google DeepMind,google,2026-09-30 17:03:07+02,,auto:provider-announcement,2026-09-30 17:11:32.1696+02,https://aikillswhat.com/models/synthid-bio
+claude-opus-5-5,Claude Opus 5.5,Anthropic,anthropic,2026-09-22 02:00:00+02,"text, code, image, video, agents",curated:provider-announcement,2026-09-30 03:09:27.60873+02,https://aikillswhat.com/models/claude-opus-5-5
+sora-2,Sora 2,OpenAI,openai,2026-08-14 02:00:00+02,"video, audio",curated:provider-announcement,2026-11-02 22:56:11.870003+01,https://aikillswhat.com/models/sora-2
+claude-opus-5,Claude Opus 5,Anthropic,anthropic,2026-07-24 02:00:00+02,"text, code, image, agents",curated:provider-announcement,2026-10-20 22:23:58.48956+02,https://aikillswhat.com/models/claude-opus-5
+llama-4-5,Llama 4.5,Meta,meta,2026-07-20 02:00:00+02,"text, image, code, agents",curated:provider-announcement,2026-11-02 22:56:11.826752+01,https://aikillswhat.com/models/llama-4-5
+claude-for-teachers,Claude for Teachers,Anthropic,anthropic,2026-07-14 17:00:00+02,,auto:provider-announcement,2026-09-30 05:50:11.147601+02,https://aikillswhat.com/models/claude-for-teachers
+claude-sonnet-5,Claude Sonnet 5,Anthropic,anthropic,2026-06-30 02:00:00+02,"text, code, image, agents",curated:provider-announcement,2026-10-20 22:23:58.546701+02,https://aikillswhat.com/models/claude-sonnet-5
+gpt-6,GPT-6,OpenAI,openai,2026-06-15 02:00:00+02,"text, code, image, audio, voice, agents",curated:provider-announcement,2026-11-02 22:56:11.246936+01,https://aikillswhat.com/models/gpt-6
+claude-corps,Claude Corps,Anthropic,anthropic,2026-06-11 15:00:00+02,,auto:provider-announcement,2026-09-30 05:50:11.114895+02,https://aikillswhat.com/models/claude-corps
+claude-opus-4-8,Claude Opus 4.8,Anthropic,anthropic,2026-05-28 19:00:00+02,,auto:provider-announcement,2026-09-30 06:20:17.563166+02,https://aikillswhat.com/models/claude-opus-4-8
+claude-for-small-business,Claude for Small Business,Anthropic,anthropic,2026-05-13 02:00:00+02,,auto:provider-announcement,2026-10-20 21:53:46.058685+02,https://aikillswhat.com/models/claude-for-small-business
+deepseek-r2,DeepSeek-R2,DeepSeek,deepseek,2026-05-10 02:00:00+02,"text, code, analysis",curated:provider-announcement,2026-11-02 22:56:11.853904+01,https://aikillswhat.com/models/deepseek-r2
+claude-design-by-anthropic-labs,Claude Design by Anthropic Labs,Anthropic,anthropic,2026-04-17 16:32:27.021+02,,auto:provider-announcement,2026-09-30 05:50:11.124289+02,https://aikillswhat.com/models/claude-design-by-anthropic-labs
+claude-opus-4-7,Claude Opus 4.7,Anthropic,anthropic,2026-04-16 02:00:00+02,,auto:provider-announcement,2026-10-20 21:53:46.467232+02,https://aikillswhat.com/models/claude-opus-4-7
+gemini-3-pro,Gemini 3 Pro,Google DeepMind,google,2026-03-15 01:00:00+01,"text, image, audio, video, code, agents",curated:provider-announcement,2026-11-02 22:56:11.463055+01,https://aikillswhat.com/models/gemini-3-pro
+the-anthropic-institute,The Anthropic Institute,Anthropic,anthropic,2026-03-11 01:00:00+01,,auto:provider-announcement,2026-10-21 02:25:51.14923+02,https://aikillswhat.com/models/the-anthropic-institute
+gpt-5-3-instant,GPT-5.3 Instant,OpenAI,openai,2026-03-04 01:00:00+01,text,auto:llm-extraction,2026-11-04 02:08:33.537486+01,https://aikillswhat.com/models/gpt-5-3-instant
+sonnet-4-6,Sonnet 4.6,Anthropic,anthropic,2026-02-17 01:00:00+01,,auto:provider-announcement,2026-10-20 22:23:58.531738+02,https://aikillswhat.com/models/sonnet-4-6
+labs,Labs,Anthropic,anthropic,2026-01-13 20:05:00+01,,auto:provider-announcement,2026-09-30 08:50:42.373751+02,https://aikillswhat.com/models/labs
+claude-for-nonprofits,Claude for Nonprofits,Anthropic,anthropic,2025-12-02 01:00:00+01,,auto:provider-announcement,2026-10-20 21:53:46.024696+02,https://aikillswhat.com/models/claude-for-nonprofits
+claude-opus-4-5,Claude Opus 4.5,Anthropic,anthropic,2025-11-24 20:00:00+01,,auto:provider-announcement,2026-09-30 06:20:17.50486+02,https://aikillswhat.com/models/claude-opus-4-5
+claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,anthropic,2025-09-29 02:00:00+02,,auto:provider-announcement,2026-10-20 22:23:58.513211+02,https://aikillswhat.com/models/claude-sonnet-4-5
+gpt-5,GPT-5,OpenAI,openai,2025-08-07 02:00:00+02,"text, image, audio",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/gpt-5
+claude-opus-4-1,Claude Opus 4.1,Anthropic,anthropic,2025-08-05 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/claude-opus-4-1
+elevenlabs-v3,ElevenLabs v3 (alpha),ElevenLabs,elevenlabs,2025-06-05 02:00:00+02,audio,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/elevenlabs-v3
+claude-4,Claude 4,Anthropic,anthropic,2025-05-22 02:00:00+02,,auto:provider-announcement,2026-10-20 21:23:30.559093+02,https://aikillswhat.com/models/claude-4
+claude-sonnet-4,Claude Sonnet 4,Anthropic,anthropic,2025-05-22 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/claude-sonnet-4
+veo-3,Veo 3,Google DeepMind,google,2025-05-20 02:00:00+02,"video, audio",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/veo-3
+the-anthropic-economic-advisory-council,the Anthropic Economic Advisory Council,Anthropic,anthropic,2025-04-28 02:00:00+02,,auto:provider-announcement,2026-10-20 23:54:40.724325+02,https://aikillswhat.com/models/the-anthropic-economic-advisory-council
+o3,o3,OpenAI,openai,2025-04-16 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/o3
+gpt-4-1,GPT-4.1,OpenAI,openai,2025-04-14 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/gpt-4-1
+llama-4,Llama 4 Scout & Maverick,Meta,meta,2025-04-05 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/llama-4
+claude-for-education,Claude for education,Anthropic,anthropic,2025-04-02 02:00:00+02,,auto:provider-announcement,2026-10-20 23:54:40.676772+02,https://aikillswhat.com/models/claude-for-education
+gemini-2-5-pro,Gemini 2.5 Pro,Google DeepMind,google,2025-03-25 01:00:00+01,"text, image, audio, video",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/gemini-2-5-pro
+anthropic-x27-s-transparency-hub,Anthropic&#x27;s Transparency Hub,Anthropic,anthropic,2025-02-27 01:00:00+01,,auto:provider-announcement,2026-10-20 23:54:40.656028+02,https://aikillswhat.com/models/anthropic-x27-s-transparency-hub
+deepseek-r1,DeepSeek-R1,DeepSeek,deepseek,2025-01-20 01:00:00+01,text,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/deepseek-r1
+deepseek-v3,DeepSeek-V3,DeepSeek,deepseek,2024-12-26 01:00:00+01,text,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/deepseek-v3
+sora,Sora,OpenAI,openai,2024-12-09 01:00:00+01,video,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/sora
+suno-v4,Suno v4,Suno,suno,2024-11-27 01:00:00+01,audio,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/suno-v4
+stable-diffusion-3-5,Stable Diffusion 3.5 Large,Stability AI,stability-ai,2024-10-22 02:00:00+02,image,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/stable-diffusion-3-5
+qwen-2-5,Qwen2.5,Alibaba,alibaba,2024-09-19 02:00:00+02,text,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/qwen-2-5
+flux-1,FLUX.1,Black Forest Labs,black-forest-labs,2024-08-01 02:00:00+02,image,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/flux-1
+llama-3-1-405b,Llama 3.1 405B,Meta,meta,2024-07-23 02:00:00+02,text,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/llama-3-1-405b
+claude-3-5-sonnet,Claude 3.5 Sonnet,Anthropic,anthropic,2024-06-20 02:00:00+02,"text, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/claude-3-5-sonnet
+claude-to-canada,Claude to Canada,Anthropic,anthropic,2024-06-05 02:00:00+02,,auto:provider-announcement,2026-10-20 23:54:40.697872+02,https://aikillswhat.com/models/claude-to-canada
+gpt-4o,GPT-4o,OpenAI,openai,2024-05-13 02:00:00+02,"text, audio, image",seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/gpt-4o
+alphafold-3,AlphaFold 3,Google DeepMind,google,2024-05-08 02:00:00+02,scientific,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/alphafold-3
+the-next-generation-of-claude,the next generation of Claude,Anthropic,anthropic,2024-03-04 01:00:00+01,,auto:provider-announcement,2026-10-20 20:53:16.481639+02,https://aikillswhat.com/models/the-next-generation-of-claude
+mobile-aloha,Mobile ALOHA,Stanford University,stanford,2024-01-04 01:00:00+01,robotics,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/mobile-aloha
+claude-2-1,Claude 2.1,Anthropic,anthropic,2023-11-21 01:00:00+01,,auto:provider-announcement,2026-10-20 20:53:16.422291+02,https://aikillswhat.com/models/claude-2-1
+whisper-large-v3,Whisper large-v3,OpenAI,openai,2023-11-06 01:00:00+01,audio,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/whisper-large-v3
+claude-pro,Claude Pro,Anthropic,anthropic,2023-09-07 15:00:00+02,,auto:provider-announcement,2026-09-30 06:20:17.588572+02,https://aikillswhat.com/models/claude-pro
+rt-2,RT-2 (Vision-Language-Action),Google DeepMind,google,2023-07-28 02:00:00+02,robotics,seed:provider-announcements,2026-09-29 21:47:24.453314+02,https://aikillswhat.com/models/rt-2
+claude,Claude,Anthropic,anthropic,2023-03-14 08:00:00+01,,auto:provider-announcement,2026-09-30 08:50:42.385397+02,https://aikillswhat.com/models/claude
