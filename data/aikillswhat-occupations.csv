@@ -2,7 +2,7 @@
 # Score = composite of task automation, model capability, adoption and labor-market evidence.
 # Not a prediction of job losses; task statements (c) O*NET OnLine, U.S. Department of Labor (CC BY 4.0).
 # Scores by aikillswhat.com - methodology: https://aikillswhat.com/methodology
-# Generated 2026-11-08T18:36:55.017Z - 25 rows
+# Generated 2026-11-08T20:30:04.759Z - 25 rows
 slug,title,soc_code,category,industry,ai_exposure_score,score_delta,evidence_count,core_task_count,task_coverage,employment_bls,median_wage_usd_bls,score_calculated_at_utc,detail_url
 writer-author,"Poets, Lyricists and Creative Writers",27-3043.05,"Arts, design & media",Media & creative,40,0,4,10,0,45000,78000,2026-11-08 11:50:35.995+01,https://aikillswhat.com/jobs/writer-author
 data-scientist,Clinical Data Managers,15-2051.02,Computer & mathematical,Software & technology,37,0,8,19,0,200000,112000,2026-11-08 11:50:35.952+01,https://aikillswhat.com/jobs/data-scientist
