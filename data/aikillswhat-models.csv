@@ -1,7 +1,7 @@
 # aikillswhat.com - AI model registry export
 # Registry of AI models tracked by the evidence pipeline (providers, release dates, provenance).
 # Scores/evidence per model: https://aikillswhat.com/models/<slug> | API: https://aikillswhat.com/api-docs
-# Generated 2026-11-08T20:30:05.544Z - 73 rows
+# Generated 2026-11-07T21:41:26.247Z - 73 rows
 slug,name,provider,provider_slug,release_date,modality,provenance,detected_at_utc,detail_url
 gpt-6-cyber,GPT-6 Cyber,OpenAI,openai,2026-11-05 01:00:00+01,text,auto:llm-extraction,2026-11-05 20:35:45.019558+01,https://aikillswhat.com/models/gpt-6-cyber
 daybreak-red,Daybreak Red,OpenAI,openai,2026-11-04 08:00:00+01,,auto:provider-announcement,2026-11-04 16:14:46.005967+01,https://aikillswhat.com/models/daybreak-red

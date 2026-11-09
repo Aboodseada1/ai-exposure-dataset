@@ -2,30 +2,30 @@
 # Score = composite of task automation, model capability, adoption and labor-market evidence.
 # Not a prediction of job losses; task statements (c) O*NET OnLine, U.S. Department of Labor (CC BY 4.0).
 # Scores by aikillswhat.com - methodology: https://aikillswhat.com/methodology
-# Generated 2026-11-08T20:30:04.759Z - 25 rows
+# Generated 2026-11-07T21:41:26.298Z - 25 rows
 slug,title,soc_code,category,industry,ai_exposure_score,score_delta,evidence_count,core_task_count,task_coverage,employment_bls,median_wage_usd_bls,score_calculated_at_utc,detail_url
-writer-author,"Poets, Lyricists and Creative Writers",27-3043.05,"Arts, design & media",Media & creative,40,0,4,10,0,45000,78000,2026-11-08 11:50:35.995+01,https://aikillswhat.com/jobs/writer-author
-data-scientist,Clinical Data Managers,15-2051.02,Computer & mathematical,Software & technology,37,0,8,19,0,200000,112000,2026-11-08 11:50:35.952+01,https://aikillswhat.com/jobs/data-scientist
-computer-user-support-specialist,Computer Network Support Specialists,15-1231.00,Computer & mathematical,Software & technology,36,0,1,26,0,560000,62000,2026-11-08 11:50:35.944+01,https://aikillswhat.com/jobs/computer-user-support-specialist
-web-developer,Web Developers,15-1254.00,Computer & mathematical,Software & technology,35,0,4,23,0,95000,92000,2026-11-08 11:50:35.937+01,https://aikillswhat.com/jobs/web-developer
-software-developer,Software Developers,15-1252.00,Computer & mathematical,Software & technology,35,0,9,11,0,1610000,133000,2026-11-08 11:50:35.898+01,https://aikillswhat.com/jobs/software-developer
-bookkeeping-clerk,"Bookkeeping, Accounting, and Auditing Clerks",43-3031.00,Office & administrative support,Financial services,33,0,3,13,0,1400000,47000,2026-11-08 11:50:36.044+01,https://aikillswhat.com/jobs/bookkeeping-clerk
-recruiter,Human Resources Specialists,13-1071.00,Business & financial,Administration,32,0,3,19,0,700000,67000,2026-11-08 11:50:36.138+01,https://aikillswhat.com/jobs/recruiter
-editor,Editors,27-3041.00,"Arts, design & media",Media & creative,31,0,2,19,0,90000,75000,2026-11-08 11:50:35.985+01,https://aikillswhat.com/jobs/editor
-project-manager,Project Management Specialists,13-1082.00,Business & financial,Administration,31,0,2,20,0,950000,98000,2026-11-08 11:50:36.413+01,https://aikillswhat.com/jobs/project-manager
-graphic-designer,Graphic Designers,27-1024.00,"Arts, design & media",Media & creative,29,0,4,17,0,270000,58000,2026-11-08 11:50:35.968+01,https://aikillswhat.com/jobs/graphic-designer
-marketing-manager,Marketing Managers,11-2021.00,Management,Sales & marketing,28,0,4,12,0,350000,157000,2026-11-08 11:50:36.112+01,https://aikillswhat.com/jobs/marketing-manager
-administrative-assistant,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",43-6014.00,Office & administrative support,Administration,27,0,3,20,0,1900000,46000,2026-11-08 11:50:36.047+01,https://aikillswhat.com/jobs/administrative-assistant
-market-research-analyst,Search Marketing Strategists,13-1161.01,Business & financial,Sales & marketing,23,0,3,25,0,800000,74000,2026-11-08 11:50:36.103+01,https://aikillswhat.com/jobs/market-research-analyst
-computer-programmer,Computer Programmers,15-1251.00,Computer & mathematical,Software & technology,22,0,3,13,0,130000,99000,2026-11-08 11:50:35.924+01,https://aikillswhat.com/jobs/computer-programmer
-lawyer,Lawyers,23-1011.00,Legal,Legal,22,0,4,15,0,730000,145000,2026-11-08 11:50:36.063+01,https://aikillswhat.com/jobs/lawyer
-accountant,Accountants and Auditors,13-2011.00,Business & financial,Financial services,21,0,4,30,0,1400000,79000,2026-11-08 11:50:36.07+01,https://aikillswhat.com/jobs/accountant
-medical-transcriptionist,Medical Transcriptionists,31-9094.00,Healthcare support,Healthcare,21,0,1,13,0,30000,38000,2026-11-08 11:50:36.052+01,https://aikillswhat.com/jobs/medical-transcriptionist
-photographer,Photographers,27-4021.00,"Arts, design & media",Media & creative,20,0,2,19,0,130000,40000,2026-11-08 11:50:36.006+01,https://aikillswhat.com/jobs/photographer
-physician,Sports Medicine Physicians,29-1229.06,Healthcare,Healthcare,20,0,2,27,0,800000,235000,2026-11-08 11:50:36.17+01,https://aikillswhat.com/jobs/physician
-training-specialist,Training and Development Specialists,13-1151.00,Business & financial,Education,18,0,1,18,0,380000,63000,2026-11-08 11:50:36.144+01,https://aikillswhat.com/jobs/training-specialist
-tutor,Tutors,25-3041.00,Educational instruction,Education,18,0,1,16,0,120000,38000,2026-11-08 11:50:36.251+01,https://aikillswhat.com/jobs/tutor
-video-editor,Film and Video Editors,27-4032.00,"Arts, design & media",Media & creative,17,0,5,13,0,90000,65000,2026-11-08 11:50:36.013+01,https://aikillswhat.com/jobs/video-editor
-pharmacy-technician,Pharmacy Technicians,29-2052.00,Healthcare support,Healthcare,14,0,1,13,0,470000,39000,2026-11-08 11:50:36.187+01,https://aikillswhat.com/jobs/pharmacy-technician
-sound-engineer,Sound Engineering Technicians,27-4014.00,"Arts, design & media",Media & creative,13,0,1,13,0,40000,60000,2026-11-08 11:50:36.019+01,https://aikillswhat.com/jobs/sound-engineer
-warehouse-worker,Stockers and Order Fillers,53-7065.00,Transportation & material moving,Transport & logistics,11,0,1,21,0,2400000,36000,2026-11-08 11:50:36.324+01,https://aikillswhat.com/jobs/warehouse-worker
+writer-author,"Poets, Lyricists and Creative Writers",27-3043.05,"Arts, design & media",Media & creative,40,0,4,10,0,45000,78000,2026-11-07 18:42:13.771+01,https://aikillswhat.com/jobs/writer-author
+data-scientist,Clinical Data Managers,15-2051.02,Computer & mathematical,Software & technology,37,0,8,19,0,200000,112000,2026-11-07 18:42:13.637+01,https://aikillswhat.com/jobs/data-scientist
+computer-user-support-specialist,Computer Network Support Specialists,15-1231.00,Computer & mathematical,Software & technology,36,0,1,26,0,560000,62000,2026-11-07 18:42:13.618+01,https://aikillswhat.com/jobs/computer-user-support-specialist
+web-developer,Web Developers,15-1254.00,Computer & mathematical,Software & technology,35,0,4,23,0,95000,92000,2026-11-07 18:42:13.605+01,https://aikillswhat.com/jobs/web-developer
+software-developer,Software Developers,15-1252.00,Computer & mathematical,Software & technology,35,0,9,11,0,1610000,133000,2026-11-07 18:42:13.398+01,https://aikillswhat.com/jobs/software-developer
+bookkeeping-clerk,"Bookkeeping, Accounting, and Auditing Clerks",43-3031.00,Office & administrative support,Financial services,33,0,3,13,0,1400000,47000,2026-11-07 18:42:13.998+01,https://aikillswhat.com/jobs/bookkeeping-clerk
+recruiter,Human Resources Specialists,13-1071.00,Business & financial,Administration,32,0,3,19,0,700000,67000,2026-11-07 18:42:14.449+01,https://aikillswhat.com/jobs/recruiter
+editor,Editors,27-3041.00,"Arts, design & media",Media & creative,31,0,2,19,0,90000,75000,2026-11-07 18:42:13.735+01,https://aikillswhat.com/jobs/editor
+project-manager,Project Management Specialists,13-1082.00,Business & financial,Administration,31,0,2,20,0,950000,98000,2026-11-07 18:42:14.691+01,https://aikillswhat.com/jobs/project-manager
+graphic-designer,Graphic Designers,27-1024.00,"Arts, design & media",Media & creative,29,0,4,17,0,270000,58000,2026-11-07 18:42:13.71+01,https://aikillswhat.com/jobs/graphic-designer
+marketing-manager,Marketing Managers,11-2021.00,Management,Sales & marketing,28,0,4,12,0,350000,157000,2026-11-07 18:42:14.423+01,https://aikillswhat.com/jobs/marketing-manager
+administrative-assistant,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",43-6014.00,Office & administrative support,Administration,27,0,3,20,0,1900000,46000,2026-11-07 18:42:14.337+01,https://aikillswhat.com/jobs/administrative-assistant
+market-research-analyst,Search Marketing Strategists,13-1161.01,Business & financial,Sales & marketing,23,0,3,25,0,800000,74000,2026-11-07 18:42:14.414+01,https://aikillswhat.com/jobs/market-research-analyst
+computer-programmer,Computer Programmers,15-1251.00,Computer & mathematical,Software & technology,22,0,3,13,0,130000,99000,2026-11-07 18:42:13.547+01,https://aikillswhat.com/jobs/computer-programmer
+lawyer,Lawyers,23-1011.00,Legal,Legal,22,0,4,15,0,730000,145000,2026-11-07 18:42:14.38+01,https://aikillswhat.com/jobs/lawyer
+medical-transcriptionist,Medical Transcriptionists,31-9094.00,Healthcare support,Healthcare,21,0,1,13,0,30000,38000,2026-11-07 18:42:14.346+01,https://aikillswhat.com/jobs/medical-transcriptionist
+accountant,Accountants and Auditors,13-2011.00,Business & financial,Financial services,21,0,4,30,0,1400000,79000,2026-11-07 18:42:14.399+01,https://aikillswhat.com/jobs/accountant
+photographer,Photographers,27-4021.00,"Arts, design & media",Media & creative,20,0,2,19,0,130000,40000,2026-11-07 18:42:13.808+01,https://aikillswhat.com/jobs/photographer
+physician,Sports Medicine Physicians,29-1229.06,Healthcare,Healthcare,20,0,2,27,0,800000,235000,2026-11-07 18:42:14.474+01,https://aikillswhat.com/jobs/physician
+training-specialist,Training and Development Specialists,13-1151.00,Business & financial,Education,18,0,1,18,0,380000,63000,2026-11-07 18:42:14.456+01,https://aikillswhat.com/jobs/training-specialist
+tutor,Tutors,25-3041.00,Educational instruction,Education,18,0,1,16,0,120000,38000,2026-11-07 18:42:14.529+01,https://aikillswhat.com/jobs/tutor
+video-editor,Film and Video Editors,27-4032.00,"Arts, design & media",Media & creative,17,0,5,13,0,90000,65000,2026-11-07 18:42:13.826+01,https://aikillswhat.com/jobs/video-editor
+pharmacy-technician,Pharmacy Technicians,29-2052.00,Healthcare support,Healthcare,14,0,1,13,0,470000,39000,2026-11-07 18:42:14.508+01,https://aikillswhat.com/jobs/pharmacy-technician
+sound-engineer,Sound Engineering Technicians,27-4014.00,"Arts, design & media",Media & creative,13,0,1,13,0,40000,60000,2026-11-07 18:42:13.846+01,https://aikillswhat.com/jobs/sound-engineer
+warehouse-worker,Stockers and Order Fillers,53-7065.00,Transportation & material moving,Transport & logistics,11,0,1,21,0,2400000,36000,2026-11-07 18:42:14.579+01,https://aikillswhat.com/jobs/warehouse-worker
