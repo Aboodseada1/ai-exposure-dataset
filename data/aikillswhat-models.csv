@@ -1,7 +1,7 @@
 # aikillswhat.com - AI model registry export
 # Registry of AI models tracked by the evidence pipeline (providers, release dates, provenance).
 # Scores/evidence per model: https://aikillswhat.com/models/<slug> | API: https://aikillswhat.com/api-docs
-# Generated 2026-11-11T15:16:32.050Z - 76 rows
+# Generated 2026-11-11T22:03:29.242Z - 79 rows
 slug,name,provider,provider_slug,release_date,modality,provenance,detected_at_utc,detail_url
 alphaproof-code,AlphaProof Code,Google DeepMind,google,2026-11-10 13:02:28+01,,auto:provider-announcement,2026-11-10 13:05:11.004515+01,https://aikillswhat.com/models/alphaproof-code
 businesses-in-chatgpt,Businesses in ChatGPT,OpenAI,openai,2026-11-10 11:00:00+01,,auto:provider-announcement,2026-11-10 19:39:38.777268+01,https://aikillswhat.com/models/businesses-in-chatgpt
@@ -22,10 +22,13 @@ arc,Arc,Nvidia,nvidia,2026-10-21 02:00:00+02,text,auto:llm-extraction,2026-11-05
 nemotron-bolt,Nemotron Bolt,Nvidia,nvidia,2026-10-16 02:00:00+02,text,auto:llm-extraction,2026-11-05 07:29:53.578067+01,https://aikillswhat.com/models/nemotron-bolt
 bolt,Bolt,Nvidia,nvidia,2026-10-16 02:00:00+02,text,auto:llm-extraction,2026-11-05 06:29:35.524163+01,https://aikillswhat.com/models/bolt
 nemotron-120b,Nemotron 120B,Nvidia,nvidia,2026-10-16 02:00:00+02,text,auto:llm-extraction,2026-11-05 06:29:35.505044+01,https://aikillswhat.com/models/nemotron-120b
+muse-wonder,Muse Wonder,Meta,meta,2026-10-13 02:00:00+02,multimodal,auto:llm-extraction,2026-11-11 22:44:19.657859+01,https://aikillswhat.com/models/muse-wonder
 the-anthropic-cyber-mission,the Anthropic Cyber Mission,Anthropic,anthropic,2026-10-08 11:04:16.632+02,,auto:provider-announcement,2026-10-08 21:16:30.244408+02,https://aikillswhat.com/models/the-anthropic-cyber-mission
 gemini-4-argon,Gemini 4 Argon,Google DeepMind,google,2026-09-30 22:21:14+02,"text, code, image, audio, video, robotics, agents",curated:provider-announcement,2026-11-02 23:06:18.999165+01,https://aikillswhat.com/models/gemini-4-argon
 synthid-bio,SynthID Bio,Google DeepMind,google,2026-09-30 17:03:07+02,,auto:provider-announcement,2026-09-30 17:11:32.1696+02,https://aikillswhat.com/models/synthid-bio
 muse,Muse,Meta,meta,2026-09-29 02:00:00+02,text,auto:llm-extraction,2026-11-05 12:32:58.031885+01,https://aikillswhat.com/models/muse
+gpt-6-luna,GPT-6 Luna,OpenAI,openai,2026-09-22 02:00:00+02,text,auto:llm-extraction,2026-11-11 21:43:51.474413+01,https://aikillswhat.com/models/gpt-6-luna
+gpt-6-sol,GPT-6 Sol,OpenAI,openai,2026-09-22 02:00:00+02,text,auto:llm-extraction,2026-11-11 21:43:51.456501+01,https://aikillswhat.com/models/gpt-6-sol
 claude-opus-5-5,Claude Opus 5.5,Anthropic,anthropic,2026-09-22 02:00:00+02,"text, code, image, video, agents",curated:provider-announcement,2026-09-30 03:09:27.60873+02,https://aikillswhat.com/models/claude-opus-5-5
 sora-2,Sora 2,OpenAI,openai,2026-08-14 02:00:00+02,"video, audio",curated:provider-announcement,2026-11-02 22:56:11.870003+01,https://aikillswhat.com/models/sora-2
 claude-opus-5,Claude Opus 5,Anthropic,anthropic,2026-07-24 02:00:00+02,"text, code, image, agents",curated:provider-announcement,2026-10-20 22:23:58.48956+02,https://aikillswhat.com/models/claude-opus-5
