@@ -19,6 +19,42 @@ Machine-readable export of the [AIKillsWhat.com](https://aikillswhat.com) eviden
 
 `slug, title, soc_code, category, industry, ai_exposure_score, score_delta, evidence_count, core_task_count, task_coverage, employment_bls, median_wage_usd_bls, score_calculated_at_utc, detail_url`
 
+## Columns (models)
+
+`slug, name, provider, provider_slug, release_date, modality, provenance, detected_at_utc, detail_url`
+
+## File format
+
+UTF-8 CSV with a header of `#` comment lines (source, license, generation time) followed by the column row. Row counts change as the pipeline refreshes. Skip the comment lines when loading.
+
+## Quick start
+
+```bash
+git clone https://github.com/Aboodseada1/ai-exposure-dataset.git
+cd ai-exposure-dataset
+pip install pandas   # Python 3.9+
+```
+
+```python
+import pandas as pd
+
+jobs = pd.read_csv("data/aikillswhat-occupations.csv", comment="#")
+models = pd.read_csv("data/aikillswhat-models.csv", comment="#")
+
+# Ten occupations with the highest exposure score
+print(jobs.sort_values("ai_exposure_score", ascending=False)
+          [["title", "soc_code", "ai_exposure_score"]].head(10))
+
+# Models released per provider
+print(models.groupby("provider").size().sort_values(ascending=False).head(10))
+```
+
+No API key or environment variables are needed. The data is plain files.
+
+## Tests
+
+There is no test suite. The hourly GitHub Action (`.github/workflows/refresh.yml`) only refreshes the CSV files.
+
 ## Refresh
 
 The [live site](https://aikillswhat.com/data) re-exports these files continuously; an hourly GitHub Action in
